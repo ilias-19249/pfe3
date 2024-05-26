@@ -1,0 +1,49 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 1300px;
+  padding: 20px;
+}
+
+#imageleft {
+  flex: 2;
+  margin-right: 20px; /* Added margin to create space between image and paragraph */
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #01382e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 100%; /* Adjusted to fill the circle */
+  height: auto;
+  filter: brightness(100%);
+  margin-top: 0;
+  object-fit: contain;
+}
+
+#paragrapheright {
+  flex: 1;
+  padding-left: 150px; /* Added padding to separate paragraph from the image */
+}
+
+#paragrapheright h2 {
+  font-size: 24px;
+  margin-bottom: 50px; /* Adjusted margin-bottom to create space */
+  color: black;
+}
+
+#paragrapheright p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}

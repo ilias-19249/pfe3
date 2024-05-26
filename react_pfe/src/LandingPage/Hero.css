@@ -1,0 +1,65 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+  /* background-color: #333; Customize your hero section background color */
+  color: #ffffff; /* Customize your text color */
+  /* margin-top:75px; */
+  position: relative;
+  z-index: 2;
+
+}
+
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: "Ramabhadra", sans-serif;
+font-weight: 800;
+letter-spacing: 2.5px;
+font-style: normal;
+}
+
+.hero-text {
+  font-size: 1.2em; /* Customize your text font size */
+  margin-bottom: 20px;
+  font-family: "Gabarito", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+}
+
+.hero-button {
+  border: 2px solid #fff; /* Customize your button border color */
+  padding: 13px 40px;
+  background-color: transparent;
+  color: #fff; /* Customize your button text color */
+  font-size: 1em; /* Customize your button font size */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 8px;
+}
+
+.hero-button:hover {
+  background-color: #fff; /* Customize your button hover background color */
+  color: #333; /* Customize your button hover text color */
+}
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    font-size: 1.25rem;
+  }
+
+  .hero-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}

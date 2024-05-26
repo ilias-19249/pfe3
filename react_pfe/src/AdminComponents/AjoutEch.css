@@ -1,0 +1,117 @@
+.echantillon-container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-left: 30rem;
+ margin-top: -280px;
+}
+
+.echantillon-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.echantillon-group {
+  flex-basis: calc(50% - 10px);
+}
+
+.echantillon-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.echantillon-group input[type="text"],
+.echantillon-group input[type="date"],
+.echantillon-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: auto;
+}
+
+button[type="submit"] {
+  background-color: #01382e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 16px;
+  cursor: pointer;
+  width: 40%;
+  height: 20%;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+button[type="submit"]:hover {
+  background-color: #126c5c;
+}
+
+.file-upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: background-color 0.3s;
+}
+
+
+.file-upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 57px;
+  
+  transition: background-color 0.3s;
+}
+
+
+input[type="file"] {
+  display: none;
+}
+.echantillon-group1 {
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.echantillon-group1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Couleur du texte */
+}
+
+.echantillon-group1 select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc; /* Couleur de la bordure */
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  cursor: pointer; /* Curseur au survol */
+}
+
+/* Style lorsque le select est ouvert */
+.echantillon-group1 select:focus {
+  outline: none; /* Supprimer la bordure de focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Ombre autour du select */
+}
+.echantillon-container h1{
+  color: #01382e;
+}

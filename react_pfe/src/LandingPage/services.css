@@ -1,0 +1,132 @@
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+.services-column {
+  width: 30%;
+}
+
+.service-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #01382e;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.separator-image {
+  width: 500px; 
+  height: auto; 
+  margin-top: 4px; 
+  filter: brightness(100%);
+}
+
+
+.service-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Ramabhadra", sans-serif;
+  letter-spacing: 2.5px;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+.service-description {
+  text-align: justify;
+  font-family: "Gabarito", sans-serif;
+  font-size: 1em; 
+  margin-bottom: 20px;
+  font-optical-sizing: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .services-column {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .separator-image {
+    display: none;
+  }
+}
+
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.service-icon {
+  color: #01382e; 
+  font-size: 40px; 
+}
+
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #916010;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.paragraph {
+  position: relative;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.paragraph:after {
+  content: "";
+  position: absolute;
+  background-color: #01382e;
+  height: 6px;
+  width: 15%;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+.page-title span {
+  font-weight: bold;
+  color :#01382e; 
+}
+@media screen and (max-width: 767px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-column {
+    margin: 0; /* Réinitialiser la marge pour la disposition en colonne */
+  }
+
+  .service-card {
+    width: 100%;
+    margin-bottom: 20px; /* Espacement entre les cartes */
+  }
+}
